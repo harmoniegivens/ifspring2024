@@ -1,0 +1,131 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+header{
+   background-image: url(../images/top-bg.JPG);
+   background-size: cover;
+   /* background-color:rgba(255,0,0,.25); */
+}
+
+.column_container{
+    margin:auto;
+    width: 962px;
+}
+.column_container2{
+    margin:auto;
+    width: 962px;
+}
+
+header .column_container{
+    padding: 166px 0 184px 0;
+    text-align:center;
+    /* background-color:rgba(255,0,0,.25); */
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    line-height: 1;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+    margin-top: 11px;
+    color: white;
+}
+.section_1{
+    .column_container{
+        /* background-color:rgba(150,0,150,.25); */
+        padding-bottom: 33px;
+    }
+    background-color: rgb(78,38,36);
+    p{
+        font-size: 18px;
+        line-height:1.4;
+        color:rgb(205, 154, 132);
+    } 
+}
+
+h3{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom:15px;
+    color:white;
+}
+
+.fillers{
+    float: right;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 41px;
+    margin-top: 0;
+}
+
+.section_2{
+    .column_container{
+        /* background-color:rgba(150,0,150,.25); */
+        padding-bottom: 33px;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-right: 21px;
+        color: rgb(78,38,36);
+    }
+    h4{
+        font-size:20px;
+        margin-top: 0px;
+        margin-bottom: 9px;
+        color: white;
+    }
+    background-color: rgb(205, 154, 132);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        display:flex;
+        width:50%;
+        margin:0 0 0 0;
+        text-align: left;
+        img{
+            margin-right: 13px;
+            margin-bottom: 26px;
+        }
+    }
+
+}
+
+.section_3{
+    background-color:rgba(150,0,150,.25);
+    h3{
+        margin: 0px;
+        padding-top: 27px;
+    }
+    p{
+        font-size: 26px;
+        text-align:center;
+        margin-left:130px;
+        margin-right:130px;
+        margin-top: 17px;
+        line-height:1.4;
+        color:rgb(205, 154, 132);
+    }
+    padding-bottom:72px;
+    background-color: rgb(78,38,36);
+}
+
+.footer{
+    p{
+        margin-left: 240px;
+        margin-top:42px;
+        font-size: 18px;
+        color: rgb(78,38,36);
+    }
+}
