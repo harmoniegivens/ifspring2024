@@ -1,0 +1,100 @@
+body{
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    margin:0;
+    /* margin-left: auto; margin-right: auto; */
+    background-color: rgb(121, 153, 106);
+    
+    }
+    .home{
+        margin:auto;
+        h1{
+            font-size: 80pt;
+            text-align: center;
+            margin: auto; 
+            color: rgb(247, 244, 237);
+        }
+        width: 90%;
+        text-align: center;
+        padding: 12rem 5rem 12rem 5rem;
+        background-image: url("/Users/harmoniegivens/Desktop/work/coursework sp 24/ifspring2024/publish/microsite/imgs/home.jpg");
+        background-size: cover;
+    }
+    h1{
+        font-size: 40pt;
+        text-align: center;
+        margin: auto;
+        color: rgb(80, 58,112)
+    }
+    h2{
+        color: rgb(80, 58,112)
+    }
+    h3{
+        color: rgb(80, 58,112)
+    }
+    h4{
+        color: rgb(80, 58,112)
+    }
+    .home-body{
+       max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+       margin-bottom:3rem;
+    }
+    .history{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+    .not-mom{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+    .traditions{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+       
+    }
+    .table{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+    .sources{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display:flex;
+    margin:0 0 0 0;
+    text-align: left;
+    img{
+        margin-right: 13px;
+        margin-bottom: 26px;
+    }
+}
+.right-trad{
+    h3{color:white}
+}
+.history{
+    img{
+    max-width: 50%;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 41px;
+    margin-top: 0;
+    }
+}
+
+.header{
+padding-top:5%;
+}
