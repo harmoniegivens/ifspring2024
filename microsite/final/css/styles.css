@@ -1,0 +1,130 @@
+body{
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    margin:0;
+    /* margin-left: auto; margin-right: auto; */
+    background-color: rgb(121, 153, 106);
+    background-image: url("/Users/harmoniegivens/Desktop/work/coursework sp 24/ifspring2024/publish/microsite/imgs/home.svg");
+    background-size: cover;
+    color:white;
+    width:90%;
+    }
+    .nav{
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10%;
+            background-color: rgb(121, 153, 106);
+          }
+          
+          li a {
+            display: block;
+            color: rgb(80, 58,112);
+            padding: 8px 16px;
+            text-decoration: none;
+          }
+          
+          /* Change the link color on hover */
+          li a:hover {
+            background-color: rgb(80, 58,112);
+            color: white;
+          }
+        position: fixed;
+        width: 100%;
+
+    }
+    .home{
+        margin:auto;
+        h1{
+            font-size: 80pt;
+            text-align: center;
+            margin: auto; 
+            color: rgb(247, 244, 237);
+        }
+        width: 90%;
+        text-align: center;
+        padding: 12rem 5rem 12rem 5rem;
+    }
+    h1{
+        font-size: 40pt;
+        text-align: center;
+        margin: auto;
+        color: rgb(80, 58,112)
+        
+    }
+    h2{
+        color: rgb(80, 58,112)
+    }
+    h3{
+        color: rgb(80, 58,112)
+    }
+    h4{
+        color: rgb(80, 58,112)
+    }
+    .home-body{
+       max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+       margin-bottom:3rem;
+    }
+    .history{
+        max-width: 60%;
+        margin-top:3rem;
+        padding-left: 18rem;
+        margin-bottom:3rem;
+    }
+    .not-mom{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+    .traditions{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+       
+    }
+    .table{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+    .sources{
+        max-width: 60%;
+       margin-top:3rem;
+       padding-left: 18rem;
+    }
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display:flex;
+    margin:0 0 0 0;
+    text-align: left;
+    img{
+        margin-right: 5%;
+        margin-bottom: 26px;
+        object-fit: contain;
+    }
+}
+.right-trad{
+    h3{color:white}
+}
+.history{
+    img{
+    object-fit: contain;
+    max-width: 50%;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 41px;
+    margin-top: 0;
+    }
+}
+
+.header{
+padding-top:5%;
+}
